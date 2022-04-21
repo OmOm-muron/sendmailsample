@@ -15,10 +15,10 @@ import javax.mail.internet.MimeMessage;
 public class EMail {
     private int port = 465;
     private String host = "smtp.gmail.com";
-    private String from = "del.tri333.kix29@gmail.com";
+    private String from = "[mailaddr_from]";
     private boolean auth = true;
-    private String username = "del.tri333.kix29@gmail.com";
-    private String password = "xepiujnnbbrqhjkc";
+    private String username = "[gmail_account]";
+    private String password = "[gmail_password]";
     private boolean debug = true;
     
     public void sendEMail(String to, String subject, String body) {
